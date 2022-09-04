@@ -52,8 +52,6 @@ echo "Downloading $uuid4_url"
   make install
 )
 
-
-
 release_dir=$(mktemp -d /tmp/nginx.XXXXXXXXXX)
 
 cp /tmp/nginx/sbin/nginx $release_dir/nginx
